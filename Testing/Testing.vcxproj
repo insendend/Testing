@@ -160,14 +160,14 @@
     <ClInclude Include="WrapFind.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="screeshots\scrn1.jpg" />
-    <Image Include="screeshots\scrn2.jpg" />
-    <Image Include="screeshots\scrn3.jpg" />
-    <Image Include="screeshots\scrn4.jpg" />
-    <Image Include="screeshots\scrn5.jpg" />
-    <Image Include="screeshots\scrn6.jpg" />
-    <Image Include="screeshots\scrn7.jpg" />
-    <Image Include="screeshots\scrn8.jpg" />
+    <Image Include="screenshots\scrn1.jpg" />
+    <Image Include="screenshots\scrn2.jpg" />
+    <Image Include="screenshots\scrn3.jpg" />
+    <Image Include="screenshots\scrn4.jpg" />
+    <Image Include="screenshots\scrn5.jpg" />
+    <Image Include="screenshots\scrn6.jpg" />
+    <Image Include="screenshots\scrn7.jpg" />
+    <Image Include="screenshots\scrn8.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
