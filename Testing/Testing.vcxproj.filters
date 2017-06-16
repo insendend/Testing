@@ -13,9 +13,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <Filter Include="Resource Files\screenshots">
+      <UniqueIdentifier>{9c47364d-1c4e-4e6e-95d8-f7b92db93e91}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Testing.cpp">
@@ -50,5 +50,31 @@
     <ClInclude Include="Question.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="screeshots\scrn1.jpg">
+      <Filter>Resource Files\screenshots</Filter>
+    </Image>
+    <Image Include="screeshots\scrn2.jpg">
+      <Filter>Resource Files\screenshots</Filter>
+    </Image>
+    <Image Include="screeshots\scrn3.jpg">
+      <Filter>Resource Files\screenshots</Filter>
+    </Image>
+    <Image Include="screeshots\scrn4.jpg">
+      <Filter>Resource Files\screenshots</Filter>
+    </Image>
+    <Image Include="screeshots\scrn5.jpg">
+      <Filter>Resource Files\screenshots</Filter>
+    </Image>
+    <Image Include="screeshots\scrn6.jpg">
+      <Filter>Resource Files\screenshots</Filter>
+    </Image>
+    <Image Include="screeshots\scrn7.jpg">
+      <Filter>Resource Files\screenshots</Filter>
+    </Image>
+    <Image Include="screeshots\scrn8.jpg">
+      <Filter>Resource Files\screenshots</Filter>
+    </Image>
   </ItemGroup>
 </Project>

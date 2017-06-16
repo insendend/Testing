@@ -22,13 +22,13 @@
     <ProjectGuid>{2BF9B416-80D6-4CAE-B9FA-D691909FB6E5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Testing</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -41,7 +41,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -146,9 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Funcs.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Question.cpp" />
@@ -161,6 +158,16 @@
     <ClInclude Include="Question.h" />
     <ClInclude Include="Test.h" />
     <ClInclude Include="WrapFind.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="screeshots\scrn1.jpg" />
+    <Image Include="screeshots\scrn2.jpg" />
+    <Image Include="screeshots\scrn3.jpg" />
+    <Image Include="screeshots\scrn4.jpg" />
+    <Image Include="screeshots\scrn5.jpg" />
+    <Image Include="screeshots\scrn6.jpg" />
+    <Image Include="screeshots\scrn7.jpg" />
+    <Image Include="screeshots\scrn8.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
